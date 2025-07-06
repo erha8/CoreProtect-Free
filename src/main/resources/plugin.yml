@@ -1,29 +1,29 @@
-name: CoreProtect
+name: CoreProtecting
 main: net.coreprotect.CoreProtect
 version: ${project.version}
 branch: ${project.branch}
 api-version: 1.13
 folia-supported: true
-website: http://coreprotect.net
+website: https://discord.flowerrealms.com
 author: Intelli
-softdepend: [WorldEdit,AdvancedChests]
+softdepend: [WorldEdit]
 description: >
-             Provides block protection for your server.
+             Logs a lot of useful stuff : )
 commands:
   co:
     description: Utilize the plugin
     permission: coreprotect.co
-    permission-message: §3CoreProtect §f- You do not have permission to do that.
+    permission-message: §3CoreProtecting §f- You do not have permission to do that.
     usage: /<command> <params>
   core:
     description: Utilize the plugin
     permission: coreprotect.core
-    permission-message: §3CoreProtect §f- You do not have permission to do that.
+    permission-message: §3CoreProtecting §f- You do not have permission to do that.
     usage: /<command> <params>
   coreprotect:
     description: Utilize the plugin
     permission: coreprotect.coreprotect
-    permission-message: §3CoreProtect §f- You do not have permission to do that.
+    permission-message: §3CoreProtecting §f- You do not have permission to do that.
     usage: /<command> <params>
 permissions:
     coreprotect.*:
